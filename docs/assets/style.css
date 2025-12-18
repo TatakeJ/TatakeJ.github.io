@@ -1,16 +1,42 @@
-#sobre-mi{
+.cont-nav {
+	position: fixed;
+	display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.cont-body {
+	padding-top: 50px;
+	width: 70%;
+	margin: auto;
+}
+
+.sobre-mi container {
+	width: 80%;
+}
+
+.myself {
+	display: flex;
+	justify-content: center;
+}
+
+.myself img{
+	width: 300px;
+	border-radius: 10%;
+	box-shadow: black 0px 0px 10px;
+}
+
+.myinfo {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	margin-top: 50px;
+	justify-content: space-around;
 }
 
-#soy-yo img{
-	width: 200px;
-	border-radius: 100px;
+.habilidades {
+	margin-top: 40px;
 }
 
-#habilidades{
-	margin-top: 50px;
-	text-align: center;
+.habilidades h2 {
+	width: 30%;
+	margin: auto;
 }
